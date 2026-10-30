@@ -1,0 +1,20 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.22.0",
+    "sdksVersions": {},
+    "version": "1.23.0",
+    "libraryName": "employee-operations-command-set",
+    "libraryId": "161f0f2f-7a3d-4510-ba20-4f29eadb8ecc",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "employee-operations-command-set",
+    "solutionShortDescription": "employee-operations-command-set description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}

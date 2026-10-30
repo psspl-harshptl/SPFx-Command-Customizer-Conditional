@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "employee-operations-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/employeeOperations/EmployeeOperationsCommandSet.js",
+          "manifest": "./src/extensions/employeeOperations/EmployeeOperationsCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EmployeeOperationsCommandSetStrings": "lib/extensions/employeeOperations/loc/{locale}.js"
+  }
+}
